@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'openGLWrapperTest' target in the 'openGLWrapperTest' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
