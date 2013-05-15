@@ -57,13 +57,17 @@
 
 - (void) DrawGL {
     
+    //Set the clear colour of the scene
     glClearColor(0.7f, 0.7f, 0.7f, 1.0f);
     
+    //Clear the buffers
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     
+    //Draw the objects
     [_tri draw];
     [_quad draw];
     
+    //Draw the buffers to the scene
     glFlush();
     
 }
