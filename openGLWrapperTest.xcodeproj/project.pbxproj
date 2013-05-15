@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F81885A1743E143005894D0 /* Renderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F8188591743E143005894D0 /* Renderer.mm */; };
+		5F81885A1743E143005894D0 /* GLApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F8188591743E143005894D0 /* GLApplication.mm */; };
 		5F81885D1743E500005894D0 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81885C1743E500005894D0 /* Triangle.m */; };
 		5F8188601743E91E005894D0 /* Object2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81885F1743E91E005894D0 /* Object2D.m */; };
 		5F8188631743F0F4005894D0 /* Quad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8188621743F0F4005894D0 /* Quad.m */; };
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F8188581743E143005894D0 /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
-		5F8188591743E143005894D0 /* Renderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Renderer.mm; sourceTree = "<group>"; };
+		5F8188581743E143005894D0 /* GLApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLApplication.h; sourceTree = "<group>"; };
+		5F8188591743E143005894D0 /* GLApplication.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLApplication.mm; sourceTree = "<group>"; };
 		5F81885B1743E500005894D0 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
 		5F81885C1743E500005894D0 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
 		5F81885E1743E91E005894D0 /* Object2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object2D.h; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 			children = (
 				5FB9CCFA1742F41700837B67 /* GLView.h */,
 				5FB9CCFB1742F41700837B67 /* GLView.mm */,
-				5F8188581743E143005894D0 /* Renderer.h */,
-				5F8188591743E143005894D0 /* Renderer.mm */,
+				5F8188581743E143005894D0 /* GLApplication.h */,
+				5F8188591743E143005894D0 /* GLApplication.mm */,
 			);
 			name = OpenGLWrapper;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 				5FB9CCD11742F1F400837B67 /* main.m in Sources */,
 				5FB9CCD81742F1F400837B67 /* AppDelegate.m in Sources */,
 				5FB9CCFC1742F41700837B67 /* GLView.mm in Sources */,
-				5F81885A1743E143005894D0 /* Renderer.mm in Sources */,
+				5F81885A1743E143005894D0 /* GLApplication.mm in Sources */,
 				5F81885D1743E500005894D0 /* Triangle.m in Sources */,
 				5F8188601743E91E005894D0 /* Object2D.m in Sources */,
 				5F8188631743F0F4005894D0 /* Quad.m in Sources */,

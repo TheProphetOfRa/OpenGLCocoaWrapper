@@ -1,17 +1,17 @@
 //
-//  RendererO.m
+//  GLApplication.m
 //  openGLWrapperTest
 //
 //  Created by David Hodgkinson on 15/05/2013.
 //  Copyright (c) 2013 David Hodgkinson. All rights reserved.
 //
 
-#import "Renderer.h"
+#import "GLApplication.h"
 #import "Triangle.h"
 #import "Quad.h"
 #import "Vertex.h"
 
-@implementation Renderer
+@implementation GLApplication
 
 - (id) init {
     
@@ -57,7 +57,7 @@
 
 - (void) DrawGL {
     
-    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glClearColor(0.7f, 0.7f, 0.7f, 1.0f);
     
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     

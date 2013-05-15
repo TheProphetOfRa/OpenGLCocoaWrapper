@@ -1,5 +1,5 @@
 //
-//  RendererO.h
+//  GLApplication.h
 //  openGLWrapperTest
 //
 //  Created by David Hodgkinson on 15/05/2013.
@@ -11,7 +11,7 @@
 @class Triangle;
 @class Quad;
 
-@interface Renderer : NSObject {
+@interface GLApplication : NSObject {
     
     Triangle    *_tri;
     Quad        *_quad;

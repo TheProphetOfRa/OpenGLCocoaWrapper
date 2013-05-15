@@ -7,7 +7,7 @@
 //
 
 #import "GLView.h"
-#import "Renderer.h"
+#import "GLApplication.h"
 
 @implementation GLView
 
@@ -26,7 +26,7 @@
 	NSOpenGLPixelFormat *nsglFormat = [[[NSOpenGLPixelFormat alloc] initWithAttributes:attr] autorelease];
 	
     if (self = [super initWithFrame:frameRect pixelFormat:nsglFormat]){
-		_renderer = [[Renderer alloc] init];
+		_glApplication = [[GLApplication alloc] init];
     }
     
 	return self;
@@ -35,7 +35,7 @@
 
 - (void)dealloc {
     
-	[_renderer dealloc];
+	[_glApplication dealloc];
     
     [_timer invalidate];
     
@@ -45,11 +45,11 @@
 
 - (void)prepareOpenGL{
     
-    if(!_renderer){
-        _renderer = [[Renderer alloc] init];
+    if(!_glApplication){
+        _glApplication = [[GLApplication alloc] init];
     }
     
-	[_renderer InitGL];
+	[_glApplication InitGL];
     
     _timer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateFrame) userInfo:nil repeats:YES];
     
@@ -61,13 +61,13 @@
 
 - (void)drawRect:(NSRect)rect{
     
-    [_renderer DrawGL];
+    [_glApplication DrawGL];
 	
 }
 
 - (void) updateFrame {
         
-    [_renderer DrawGL];
+    [_glApplication DrawGL];
         
 }
 

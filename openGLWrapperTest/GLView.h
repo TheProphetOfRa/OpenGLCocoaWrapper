@@ -8,11 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class Renderer;
+@class GLApplication;
 
 @interface GLView : NSOpenGLView {
     
-    Renderer    *_renderer;
+    GLApplication    *_glApplication;
     NSTimer     *_timer;
         
 }
