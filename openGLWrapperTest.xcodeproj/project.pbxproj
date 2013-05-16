@@ -7,46 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F81885A1743E143005894D0 /* GLApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F8188591743E143005894D0 /* GLApplication.mm */; };
-		5F81885D1743E500005894D0 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81885C1743E500005894D0 /* Triangle.m */; };
-		5F8188601743E91E005894D0 /* Object2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81885F1743E91E005894D0 /* Object2D.m */; };
-		5F8188631743F0F4005894D0 /* Quad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8188621743F0F4005894D0 /* Quad.m */; };
-		5F8188661743F318005894D0 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8188651743F318005894D0 /* Vertex.m */; };
+		5F81886E17442194005894D0 /* Object3D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81886D17442194005894D0 /* Object3D.m */; };
+		5F81887317442285005894D0 /* Object2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81887017442285005894D0 /* Object2D.m */; };
+		5F81887417442285005894D0 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81887217442285005894D0 /* Triangle.m */; };
+		5F81887717442297005894D0 /* Quad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81887617442297005894D0 /* Quad.m */; };
+		5F81887A174422A9005894D0 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F818879174422A9005894D0 /* Vertex.m */; };
+		5F81887F174422BF005894D0 /* GLApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F81887C174422BE005894D0 /* GLApplication.mm */; };
+		5F818880174422BF005894D0 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F81887E174422BF005894D0 /* GLView.mm */; };
+		5F818883174422D6005894D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F818882174422D6005894D0 /* AppDelegate.m */; };
+		5F81888517442350005894D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81888417442350005894D0 /* main.m */; };
+		5F81888A1744257F005894D0 /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8188891744257F005894D0 /* Cube.m */; };
+		5F81888D174434B0005894D0 /* Normal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F81888C174434B0005894D0 /* Normal.m */; };
 		5FB9CCC51742F1F400837B67 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB9CCC41742F1F400837B67 /* Cocoa.framework */; };
 		5FB9CCCF1742F1F400837B67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB9CCCD1742F1F400837B67 /* InfoPlist.strings */; };
-		5FB9CCD11742F1F400837B67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB9CCD01742F1F400837B67 /* main.m */; };
 		5FB9CCD51742F1F400837B67 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB9CCD31742F1F400837B67 /* Credits.rtf */; };
-		5FB9CCD81742F1F400837B67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB9CCD71742F1F400837B67 /* AppDelegate.m */; };
 		5FB9CCDB1742F1F400837B67 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FB9CCD91742F1F400837B67 /* MainMenu.xib */; };
-		5FB9CCE31742F1F400837B67 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB9CCE21742F1F400837B67 /* SenTestingKit.framework */; };
-		5FB9CCE41742F1F400837B67 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB9CCC41742F1F400837B67 /* Cocoa.framework */; };
-		5FB9CCEC1742F1F400837B67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FB9CCEA1742F1F400837B67 /* InfoPlist.strings */; };
-		5FB9CCEF1742F1F400837B67 /* openGLWrapperTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB9CCEE1742F1F400837B67 /* openGLWrapperTestTests.m */; };
 		5FB9CCF91742F3E800837B67 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FB9CCF81742F3E800837B67 /* OpenGL.framework */; };
-		5FB9CCFC1742F41700837B67 /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FB9CCFB1742F41700837B67 /* GLView.mm */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5FB9CCE51742F1F400837B67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5FB9CCB91742F1F400837B67 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FB9CCC01742F1F400837B67;
-			remoteInfo = openGLWrapperTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		5F8188581743E143005894D0 /* GLApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLApplication.h; sourceTree = "<group>"; };
-		5F8188591743E143005894D0 /* GLApplication.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLApplication.mm; sourceTree = "<group>"; };
-		5F81885B1743E500005894D0 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
-		5F81885C1743E500005894D0 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
-		5F81885E1743E91E005894D0 /* Object2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object2D.h; sourceTree = "<group>"; };
-		5F81885F1743E91E005894D0 /* Object2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object2D.m; sourceTree = "<group>"; };
-		5F8188611743F0F3005894D0 /* Quad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quad.h; sourceTree = "<group>"; };
-		5F8188621743F0F4005894D0 /* Quad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quad.m; sourceTree = "<group>"; };
-		5F8188641743F318005894D0 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
-		5F8188651743F318005894D0 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		5F81886C17442194005894D0 /* Object3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object3D.h; path = src/Object3D.h; sourceTree = "<group>"; };
+		5F81886D17442194005894D0 /* Object3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Object3D.m; path = src/Object3D.m; sourceTree = "<group>"; };
+		5F81886F17442285005894D0 /* Object2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object2D.h; path = src/Object2D.h; sourceTree = "<group>"; };
+		5F81887017442285005894D0 /* Object2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Object2D.m; path = src/Object2D.m; sourceTree = "<group>"; };
+		5F81887117442285005894D0 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = src/Triangle.h; sourceTree = "<group>"; };
+		5F81887217442285005894D0 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Triangle.m; path = src/Triangle.m; sourceTree = "<group>"; };
+		5F81887517442297005894D0 /* Quad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Quad.h; path = src/Quad.h; sourceTree = "<group>"; };
+		5F81887617442297005894D0 /* Quad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Quad.m; path = src/Quad.m; sourceTree = "<group>"; };
+		5F818878174422A9005894D0 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = src/Vertex.h; sourceTree = "<group>"; };
+		5F818879174422A9005894D0 /* Vertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vertex.m; path = src/Vertex.m; sourceTree = "<group>"; };
+		5F81887B174422BE005894D0 /* GLApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLApplication.h; path = src/GLApplication.h; sourceTree = "<group>"; };
+		5F81887C174422BE005894D0 /* GLApplication.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GLApplication.mm; path = src/GLApplication.mm; sourceTree = "<group>"; };
+		5F81887D174422BE005894D0 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLView.h; path = src/GLView.h; sourceTree = "<group>"; };
+		5F81887E174422BF005894D0 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GLView.mm; path = src/GLView.mm; sourceTree = "<group>"; };
+		5F818881174422D6005894D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = src/AppDelegate.h; sourceTree = "<group>"; };
+		5F818882174422D6005894D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = src/AppDelegate.m; sourceTree = "<group>"; };
+		5F81888417442350005894D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		5F818887174423B1005894D0 /* openGLWrapperTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "openGLWrapperTest-Prefix.pch"; sourceTree = "<group>"; };
+		5F8188881744257F005894D0 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		5F8188891744257F005894D0 /* Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
+		5F81888B174434B0005894D0 /* Normal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Normal.h; path = src/Normal.h; sourceTree = "<group>"; };
+		5F81888C174434B0005894D0 /* Normal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Normal.m; path = src/Normal.m; sourceTree = "<group>"; };
 		5FB9CCC11742F1F400837B67 /* openGLWrapperTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openGLWrapperTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB9CCC41742F1F400837B67 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5FB9CCC71742F1F400837B67 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -54,21 +55,10 @@
 		5FB9CCC91742F1F400837B67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5FB9CCCC1742F1F400837B67 /* openGLWrapperTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "openGLWrapperTest-Info.plist"; sourceTree = "<group>"; };
 		5FB9CCCE1742F1F400837B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5FB9CCD01742F1F400837B67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5FB9CCD21742F1F400837B67 /* openGLWrapperTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openGLWrapperTest-Prefix.pch"; sourceTree = "<group>"; };
 		5FB9CCD41742F1F400837B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5FB9CCD61742F1F400837B67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5FB9CCD71742F1F400837B67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5FB9CCDA1742F1F400837B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5FB9CCE11742F1F400837B67 /* openGLWrapperTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openGLWrapperTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB9CCE21742F1F400837B67 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5FB9CCE91742F1F400837B67 /* openGLWrapperTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "openGLWrapperTestTests-Info.plist"; sourceTree = "<group>"; };
-		5FB9CCEB1742F1F400837B67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5FB9CCED1742F1F400837B67 /* openGLWrapperTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openGLWrapperTestTests.h; sourceTree = "<group>"; };
-		5FB9CCEE1742F1F400837B67 /* openGLWrapperTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openGLWrapperTestTests.m; sourceTree = "<group>"; };
 		5FB9CCF81742F3E800837B67 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		5FB9CCFA1742F41700837B67 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
-		5FB9CCFB1742F41700837B67 /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,24 +71,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FB9CCDD1742F1F400837B67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FB9CCE31742F1F400837B67 /* SenTestingKit.framework in Frameworks */,
-				5FB9CCE41742F1F400837B67 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F818867174420A4005894D0 /* 2D */ = {
+			isa = PBXGroup;
+			children = (
+				5F81886F17442285005894D0 /* Object2D.h */,
+				5F81887017442285005894D0 /* Object2D.m */,
+				5F81887517442297005894D0 /* Quad.h */,
+				5F81887617442297005894D0 /* Quad.m */,
+				5F81887117442285005894D0 /* Triangle.h */,
+				5F81887217442285005894D0 /* Triangle.m */,
+			);
+			name = 2D;
+			sourceTree = "<group>";
+		};
+		5F818868174420B2005894D0 /* 3D */ = {
+			isa = PBXGroup;
+			children = (
+				5F81886C17442194005894D0 /* Object3D.h */,
+				5F81886D17442194005894D0 /* Object3D.m */,
+				5F8188881744257F005894D0 /* Cube.h */,
+				5F8188891744257F005894D0 /* Cube.m */,
+			);
+			name = 3D;
+			sourceTree = "<group>";
+		};
 		5FB9CCB81742F1F400837B67 = {
 			isa = PBXGroup;
 			children = (
-				5FB9CCF81742F3E800837B67 /* OpenGL.framework */,
 				5FB9CCCA1742F1F400837B67 /* openGLWrapperTest */,
-				5FB9CCE71742F1F400837B67 /* openGLWrapperTestTests */,
 				5FB9CCC31742F1F400837B67 /* Frameworks */,
 				5FB9CCC21742F1F400837B67 /* Products */,
 			);
@@ -108,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				5FB9CCC11742F1F400837B67 /* openGLWrapperTest.app */,
-				5FB9CCE11742F1F400837B67 /* openGLWrapperTestTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +118,7 @@
 		5FB9CCC31742F1F400837B67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FB9CCF81742F3E800837B67 /* OpenGL.framework */,
 				5FB9CCC41742F1F400837B67 /* Cocoa.framework */,
 				5FB9CCE21742F1F400837B67 /* SenTestingKit.framework */,
 				5FB9CCC61742F1F400837B67 /* Other Frameworks */,
@@ -138,8 +141,8 @@
 			children = (
 				5FB9CD011743178700837B67 /* Objects */,
 				5FB9CD001743174100837B67 /* OpenGLWrapper */,
-				5FB9CCD61742F1F400837B67 /* AppDelegate.h */,
-				5FB9CCD71742F1F400837B67 /* AppDelegate.m */,
+				5F818881174422D6005894D0 /* AppDelegate.h */,
+				5F818882174422D6005894D0 /* AppDelegate.m */,
 				5FB9CCD91742F1F400837B67 /* MainMenu.xib */,
 				5FB9CCCB1742F1F400837B67 /* Supporting Files */,
 			);
@@ -151,28 +154,9 @@
 			children = (
 				5FB9CCCC1742F1F400837B67 /* openGLWrapperTest-Info.plist */,
 				5FB9CCCD1742F1F400837B67 /* InfoPlist.strings */,
-				5FB9CCD01742F1F400837B67 /* main.m */,
-				5FB9CCD21742F1F400837B67 /* openGLWrapperTest-Prefix.pch */,
+				5F81888417442350005894D0 /* main.m */,
+				5F818887174423B1005894D0 /* openGLWrapperTest-Prefix.pch */,
 				5FB9CCD31742F1F400837B67 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5FB9CCE71742F1F400837B67 /* openGLWrapperTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				5FB9CCED1742F1F400837B67 /* openGLWrapperTestTests.h */,
-				5FB9CCEE1742F1F400837B67 /* openGLWrapperTestTests.m */,
-				5FB9CCE81742F1F400837B67 /* Supporting Files */,
-			);
-			path = openGLWrapperTestTests;
-			sourceTree = "<group>";
-		};
-		5FB9CCE81742F1F400837B67 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5FB9CCE91742F1F400837B67 /* openGLWrapperTestTests-Info.plist */,
-				5FB9CCEA1742F1F400837B67 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,10 +164,10 @@
 		5FB9CD001743174100837B67 /* OpenGLWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				5FB9CCFA1742F41700837B67 /* GLView.h */,
-				5FB9CCFB1742F41700837B67 /* GLView.mm */,
-				5F8188581743E143005894D0 /* GLApplication.h */,
-				5F8188591743E143005894D0 /* GLApplication.mm */,
+				5F81887B174422BE005894D0 /* GLApplication.h */,
+				5F81887C174422BE005894D0 /* GLApplication.mm */,
+				5F81887D174422BE005894D0 /* GLView.h */,
+				5F81887E174422BF005894D0 /* GLView.mm */,
 			);
 			name = OpenGLWrapper;
 			sourceTree = "<group>";
@@ -191,14 +175,12 @@
 		5FB9CD011743178700837B67 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				5F81885B1743E500005894D0 /* Triangle.h */,
-				5F81885C1743E500005894D0 /* Triangle.m */,
-				5F81885E1743E91E005894D0 /* Object2D.h */,
-				5F81885F1743E91E005894D0 /* Object2D.m */,
-				5F8188611743F0F3005894D0 /* Quad.h */,
-				5F8188621743F0F4005894D0 /* Quad.m */,
-				5F8188641743F318005894D0 /* Vertex.h */,
-				5F8188651743F318005894D0 /* Vertex.m */,
+				5F818868174420B2005894D0 /* 3D */,
+				5F818867174420A4005894D0 /* 2D */,
+				5F818878174422A9005894D0 /* Vertex.h */,
+				5F818879174422A9005894D0 /* Vertex.m */,
+				5F81888B174434B0005894D0 /* Normal.h */,
+				5F81888C174434B0005894D0 /* Normal.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -223,25 +205,6 @@
 			productReference = 5FB9CCC11742F1F400837B67 /* openGLWrapperTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5FB9CCE01742F1F400837B67 /* openGLWrapperTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5FB9CCF51742F1F400837B67 /* Build configuration list for PBXNativeTarget "openGLWrapperTestTests" */;
-			buildPhases = (
-				5FB9CCDC1742F1F400837B67 /* Sources */,
-				5FB9CCDD1742F1F400837B67 /* Frameworks */,
-				5FB9CCDE1742F1F400837B67 /* Resources */,
-				5FB9CCDF1742F1F400837B67 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5FB9CCE61742F1F400837B67 /* PBXTargetDependency */,
-			);
-			name = openGLWrapperTestTests;
-			productName = openGLWrapperTestTests;
-			productReference = 5FB9CCE11742F1F400837B67 /* openGLWrapperTestTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -264,7 +227,6 @@
 			projectRoot = "";
 			targets = (
 				5FB9CCC01742F1F400837B67 /* openGLWrapperTest */,
-				5FB9CCE01742F1F400837B67 /* openGLWrapperTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,65 +242,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FB9CCDE1742F1F400837B67 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FB9CCEC1742F1F400837B67 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5FB9CCDF1742F1F400837B67 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5FB9CCBD1742F1F400837B67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FB9CCD11742F1F400837B67 /* main.m in Sources */,
-				5FB9CCD81742F1F400837B67 /* AppDelegate.m in Sources */,
-				5FB9CCFC1742F41700837B67 /* GLView.mm in Sources */,
-				5F81885A1743E143005894D0 /* GLApplication.mm in Sources */,
-				5F81885D1743E500005894D0 /* Triangle.m in Sources */,
-				5F8188601743E91E005894D0 /* Object2D.m in Sources */,
-				5F8188631743F0F4005894D0 /* Quad.m in Sources */,
-				5F8188661743F318005894D0 /* Vertex.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5FB9CCDC1742F1F400837B67 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FB9CCEF1742F1F400837B67 /* openGLWrapperTestTests.m in Sources */,
+				5F81886E17442194005894D0 /* Object3D.m in Sources */,
+				5F81887317442285005894D0 /* Object2D.m in Sources */,
+				5F81887417442285005894D0 /* Triangle.m in Sources */,
+				5F81887717442297005894D0 /* Quad.m in Sources */,
+				5F81887A174422A9005894D0 /* Vertex.m in Sources */,
+				5F81887F174422BF005894D0 /* GLApplication.mm in Sources */,
+				5F818880174422BF005894D0 /* GLView.mm in Sources */,
+				5F818883174422D6005894D0 /* AppDelegate.m in Sources */,
+				5F81888517442350005894D0 /* main.m in Sources */,
+				5F81888A1744257F005894D0 /* Cube.m in Sources */,
+				5F81888D174434B0005894D0 /* Normal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5FB9CCE61742F1F400837B67 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5FB9CCC01742F1F400837B67 /* openGLWrapperTest */;
-			targetProxy = 5FB9CCE51742F1F400837B67 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5FB9CCCD1742F1F400837B67 /* InfoPlist.strings */ = {
@@ -363,14 +288,6 @@
 				5FB9CCDA1742F1F400837B67 /* en */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		5FB9CCEA1742F1F400837B67 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FB9CCEB1742F1F400837B67 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -461,36 +378,6 @@
 			};
 			name = Release;
 		};
-		5FB9CCF61742F1F400837B67 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/openGLWrapperTest.app/Contents/MacOS/openGLWrapperTest";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "openGLWrapperTest/openGLWrapperTest-Prefix.pch";
-				INFOPLIST_FILE = "openGLWrapperTestTests/openGLWrapperTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5FB9CCF71742F1F400837B67 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/openGLWrapperTest.app/Contents/MacOS/openGLWrapperTest";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "openGLWrapperTest/openGLWrapperTest-Prefix.pch";
-				INFOPLIST_FILE = "openGLWrapperTestTests/openGLWrapperTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -508,15 +395,6 @@
 			buildConfigurations = (
 				5FB9CCF31742F1F400837B67 /* Debug */,
 				5FB9CCF41742F1F400837B67 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5FB9CCF51742F1F400837B67 /* Build configuration list for PBXNativeTarget "openGLWrapperTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5FB9CCF61742F1F400837B67 /* Debug */,
-				5FB9CCF71742F1F400837B67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
